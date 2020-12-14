@@ -1,27 +1,79 @@
-body{
+*{
+    font-size: 20px;
+    margin: 0%;
+}
+body { 
+    
 }
 #container{
-    width: 900px;
+    width: 90%;
     margin: auto;
+    background-color: yellow;
 }
 header{
-    background-color: violet;
-    height: 200px;
-}
+    background-color: orange;
+    height: 150px;
+    }
+    nav ul li a {
+        color:red;
+        font-style: italic;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        color:darkred; 
+        background-color:lightgray;
+        
+    }
+    nav ul li{
+        
+        width: 150px;
+        display: inline-block;
+        
+    }
+    nav ul{list-style: none;
+        height: 40px; 
+        line-height: 40px;
+    text-align: center;}
+    nav {background-color: white;
+    }
 #hizliErisim{
     background-color: lightgreen;
+width:55.4%;
+float: left;
+text-align: justify;
+margin:1%;
+padding: 1%;
+border: 2px black solid
+
+
 }
 
 #slider{
     background-color: lightpink;
-    height: 250px;
+    height: 500px;
 }
 
 #duyuru{ 
     background-color: lightblue;
+    width: 36%;
+    float: left;
+    text-align: justify;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+    border: 2px black solid
 }
 
 footer{
     background-color: black;
     color: white;
+    clear: both;
+
+}
+p::first-letter {
+    font-size: 150%;
+    
 }

@@ -193,5 +193,13 @@ h2{
     #contact input:focus,
     #contact textarea:focus {
         outline: 0;
-        
-    }
+        }
+        @media print {
+
+            footer,nav,#slider{
+                display:none;
+        }
+            #duyuru,#hizlierisim{
+                width: 100%;
+            }
+        }

@@ -2,17 +2,18 @@
     font-size: 20px;
     margin: 0%;
 }
-body { 
+body { background-image: url('resim/881474.jpg');
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
     
 }
 #container{
     width: 90%;
     margin: auto;
-    background-color: yellow;
 }
 header{
-    background-color: orange;
-    height: 150px;
+    height: 50px;
     }
     nav ul li a {
         color:red;
@@ -35,7 +36,7 @@ header{
         height: 40px; 
         line-height: 40px;
     text-align: center;}
-    nav {background-color: white;
+    nav {background-color:
     }
 #hizliErisim{
     background-color: lightgreen;
@@ -76,4 +77,7 @@ footer{
 p::first-letter {
     font-size: 150%;
     
+}
+#demir{
+    color: red,,;
 }

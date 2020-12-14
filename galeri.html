@@ -5,17 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeri</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>	
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+    mode: 'fade',
+    captions: true,
+  });
+    });
+  </script>
+    
 </head>
 <body>
 
-    
-<ul>
-    <li><a href="index.html">Anasayfa</a></li>
-    <li><a href="hakkimda.html">Hakkımda</a></li>
-    <li><a href="galeri.html">Galeri</a></li>
-    <li><a href="iletisim.html">İletişim</a></li>
-</ul>
-
+    <header></header>
+        <nav>
+        <ul> 
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="hakkimda.html">Hakkımda</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="projeler.html">Projeler</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+            
+        </ul>
+    </nav>
+<div class="slider">
+    <div><img src="images/1 yaşında.jpg"  width="850px" height="600px" title="1 Yaşındayken"></div>
+    <div><img src="images/2 yaşında (2).jpeg"  width="850px" height="600px" title="2 Yaşındayken"></div>
+    <div><img src="images/3 yaşında.jpeg" width="850px" height="600px"title="3 Yaşındayken" ></div>
+    <div><img src="images/4 yaşında.jpeg"  width="850px" height="600px" title="4 Yaşındayken"></div>
+    <div><img src="images/5 yaşında.jpeg" width="850px" height="600px" title="5 Yaşındayken" ></div>
+    <div><img src="images/18 yaşında.jpeg" width="850px" height="600px" title="18 Yaşındayken" ></div>
+</div>
 
 <h1>Galeri</h1>
 

@@ -78,6 +78,20 @@ p::first-letter {
     font-size: 150%;
     
 }
-#demir{
-    color: red,,;
+h1{
+    color: red;
 }
+
+h2{ 
+    color: red;
+}
+.onemli{
+    color: orange;
+    }
+    .tablo{
+        color: orange;
+        background-color: black;
+    }
+    p{
+        font-size: 150%;
+    }

@@ -1,12 +1,27 @@
 body{
-    background-color:teal
+}
+#container{
+    width: 900px;
+    margin: auto;
+}
+header{
+    background-color: violet;
+    height: 200px;
+}
+#hizliErisim{
+    background-color: lightgreen;
 }
 
-
-h1{
-    color: rebeccapurple;
+#slider{
+    background-color: lightpink;
+    height: 250px;
 }
 
-h2{
-    color:red 
+#duyuru{ 
+    background-color: lightblue;
+}
+
+footer{
+    background-color: black;
+    color: white;
 }
